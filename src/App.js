@@ -22,7 +22,7 @@ function App() {
   ];
 
   return (
-    <div>
+    <div className='max-width-[1400px] h-[780px] w-full m-auto py-16 px-4 relative'>
       
     </div>
   );
