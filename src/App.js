@@ -25,7 +25,7 @@ function App() {
     // parent div container
     <div className='max-width-[1400px] h-[780px] w-full m-auto py-16 px-4 relative'>
       {/* banner container */}
-      <div classNmae='w-full h-full rounded-2xl bg-center bg-cover duration-500'> </div>
+      <div style={{backgroundImage: `url(${slides[0].url})`}} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'> </div>
     </div>
   );
 }
