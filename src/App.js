@@ -1,4 +1,6 @@
 import React, {usestate} from 'react';
+import { BsChevronCompactLeft } from 'react-icons/bs';
+import { BsChevronCompactRight} from 'react-icons/bs';
 
 function App() {
 
@@ -26,6 +28,10 @@ function App() {
     <div className='max-width-[1400px] h-[780px] w-full m-auto py-16 px-4 relative'>
       {/* banner container */}
       <div style={{backgroundImage: `url(${slides[0].url})`}} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'> </div>
+    {/* left arrow */}
+
+    {/* right arrow */}
+
     </div>
   );
 }
