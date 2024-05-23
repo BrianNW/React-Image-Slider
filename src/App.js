@@ -31,12 +31,12 @@ function App() {
     
     {/* left arrow */}
     <div> 
-      <BsChevronCompactLeft />
+      <BsChevronCompactLeft size={30}/>
 
     </div>
     {/* right arrow */}
     <div> 
-      <BsChevronCompactLeft />
+      <BsChevronCompactLeft size={30}/>
 
     </div>
     </div>
