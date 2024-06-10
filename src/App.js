@@ -43,7 +43,7 @@ function App() {
     
     {/* left arrow */}
     <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'> 
-      <BsChevronCompactLeft size={30}/>
+      <BsChevronCompactLeft onclick={prevSlide} size={30}/>
 
     </div>
     {/* right arrow */}
