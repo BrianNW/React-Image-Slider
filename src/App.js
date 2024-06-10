@@ -25,6 +25,16 @@ function App() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const prevSlide = () => {
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? slides.length -1 : currentIndex -1;
+    setCurrentIndex(newIndex);
+  } 
+
+  const nextSlide = () => {
+    
+  } 
+
   return (
     // parent div container
     <div className='max-width-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
